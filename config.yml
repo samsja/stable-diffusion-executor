@@ -1,0 +1,8 @@
+jtype: StableDiffusionExecutor
+py_modules:
+  - executor.py
+metas:
+  name: StableDiffusionExecutor
+  description: Stable diffusion Executor to generate code image out of text
+  url: https://github.com/samsja19/stable-diffusion-executor
+  keywords: ['generative art', ' creative AI', ' stable diffusion', ' diffusion', ' dalle']
