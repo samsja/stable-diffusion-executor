@@ -1,0 +1,12 @@
+jtype: Flow
+executors:
+  - name: diffusion
+    uses: jinahub+docker://StableDiffusionExecutor
+    uses_with:
+      auth_token: YOUR_TOKEN
+    timeout_ready: -1  # slow download speed often leads to timeout
+    gpus: all
+    jcloud:
+      resources:
+        memory: 20G
+        gpu: 1
