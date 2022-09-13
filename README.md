@@ -10,3 +10,7 @@ This repo contains a [Jina Executor](https://hub.jina.ai/executor/1vlp4of3) for 
 ## Accept the stable diffusion model agreement
 
 https://huggingface.co/CompVis/stable-diffusion-v1-4
+
+## colab
+
+https://colab.research.google.com/github/samsja/stable-diffusion-executor/blob/main/workshop.ipynb
