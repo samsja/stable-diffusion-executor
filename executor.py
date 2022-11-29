@@ -29,7 +29,7 @@ class StableDiffusionExecutor(Executor):
     def generate_image_from_document(self, document: Document, num_images: int) -> Document:
 
         with torch.autocast("cuda"):
-            generated_imgs = self.diffusion([document.text] * int(num_images))['sample']
+            generated_imgs = self.diffusion([document.text] * int(num_images))['images']
 
         for img in generated_imgs:
             _generated_document = Document(
